@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-image: url('zyro-image.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+}
+
+.parallax h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
